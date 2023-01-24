@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <title>YOUR NAME Portfolio</title>
- </head>
- <body>
-   <nav>
-     <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
-       <li><a href=”/resume”>Resume</a></li>
-       <li><a href=”/blog”>Blog</a></li>
-     </ul>
-   </nav>
-   <div class=”container”>
-     <div class=”blurb”>
-       <h1>Hi, I am YOUR NAME!</h1>
-       <p>This is my first page for my personal website!</a></p>
-     </div>
-   </div>
-   <footer>
-   <ul>
-     <li><a href=”mailto:YOUREMAIL”>YOUREMAIL</a></li>
-   </ul>
-   </footer>
- </body>
+  <head>
+    <title>tammytru</title>
+    <script src="/navbar.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>  
+  <body>
+
+    <navbar-element></navbar-element>
+
+    <div class="welcome-container">
+      <div class="welcome-content">
+        <div class="welcome-left">
+          <div id="personal-img-container">
+            <img src="/assets/personal_pic.png" alt="Picture of Tammy Truong" height="250em">
+          </div>
+        </div>
+
+        <div class="welcome-right">
+          <p class="section-subtitle">WHO AM I</p>
+          <div class="typewriter">
+            <h1 style="color: white">Hey &#x1F44B I'm Tammy!</h1>
+          </div>
+          <div class="bio">
+            <p id="bio-p">I'm a Computer Science and Business Administration student at the University of Southern California. I enjoy working on web development and software projects, reading, and swimming.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+
+    <div class="services-container">
+      <div class="section-title">
+        <p class="section-subtitle">WHAT I DO</p>
+        <h2>Services</h2>
+      </div>
+
+      <div class="services-cards">
+        <div class="card">
+          <img src="/assets/www.png" alt="WWW web icon" width="30%">
+          <p class="card-info">Full-Stack Web Development</p>
+        </div>
+        <div class="card">
+          <img src="/assets/web-programming.png" alt="WWW web icon" width="30%">
+          <p class="card-info">Software Engineering</p>
+        </div>
+        <div class="card">
+          <img src="/assets/app-development.png" alt="WWW web icon" width="30%">
+          <p class="card-info">Mobile App Development</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="textstack-container">
+      <div class="section-title">
+        <p class="section-subtitle">HOW I DO IT</p>
+        <h2>Text Stack</h2>
+      </div>
+    </div>
+    
+  </body>
 </html>

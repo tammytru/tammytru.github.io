@@ -1,0 +1,171 @@
+
+body { 
+    margin: 0; 
+    font-family: sans-serif;
+}
+
+.welcome-container {
+    height: auto;
+    background-color: #B9A395;
+    display: flex;
+    padding: 5% 15%;
+    width: auto;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.welcome-left {
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+#personal-img-container {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 3em;
+}
+
+.welcome-right {
+    flex-grow: 3;
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 50%;
+}
+
+#bio-p {
+    width: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+
+
+/* TYPEWRITER GREETING MESSAGE
+    referenced: https://css-tricks.com/snippets/css/typewriter-effect/
+*/
+.typewriter {
+    /* justify-content: left; */
+    display: inline-block;
+}
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+
+.section-subtitle {
+    color: #876043;
+    margin: 0;
+}
+h2 {
+    margin: 0.5em 0em;
+    font-size: 2em;
+}
+.section-title {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.services-container {
+    background-color: #EFE2D9;
+    margin: 0; 
+    padding: 4em 3em;
+}
+.services-cards {
+    display: flex;
+    padding: 2em;
+}
+.card {
+    justify-content: center;
+    text-align: center;
+}
+.card-info {
+    background-color: #E6CDB9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 1em 4%;
+    padding: 1em;
+}
+
+.textstack-container {
+    margin: 0; 
+    padding: 4em 3em;
+}
+
+/* PROJECTS PAGE */
+.projects-page {
+    padding: 3em 8em;
+}
+.project-container {
+    margin: 3em 0em;
+}
+.project-card {
+    border: 2px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+.project-media {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.project-info {
+    font-size: 20px;
+    float: left;
+}
+#proj-p {
+    width: 90%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 2%;
+}
+#proj-img {
+    max-width: 90%;
+    height: auto;
+
+}
+.see-more-container {
+    padding: 1em;
+    float: right;
+    vertical-align: bottom;
+}
+.see-more-link {
+    padding: auto;
+    text-decoration: none;
+    color: black;
+}
+.see-more-link:hover {
+    color: #876043
+}
+
+
